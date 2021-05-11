@@ -21,9 +21,9 @@ Also update your composer.json with some extra config:
     },
     "extra": {
         "runtime": {
-            "psr17_server_request_factory": "Slim\\Psr7\\Factory\\ServerRequestFactory"
-            "psr17_uri_factory": "Slim\\Psr7\\Factory\\UriFactory"
-            "psr17_uploaded_file_factory": "Slim\\Psr7\\Factory\\UploadedFileFactory"
+            "psr17_server_request_factory": "Slim\\Psr7\\Factory\\ServerRequestFactory",
+            "psr17_uri_factory": "Slim\\Psr7\\Factory\\UriFactory",
+            "psr17_uploaded_file_factory": "Slim\\Psr7\\Factory\\UploadedFileFactory",
             "psr17_stream_factory": "Slim\\Psr7\\Factory\\StreamFactory"
         }
     }
